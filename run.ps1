@@ -1,4 +1,4 @@
-docker run -d -p 8081:443 --name ExampleApp exampleapp
+docker run -d -p 81:80 --name ExampleApp exampleapp
 
 docker ps
 docker top ExampleApp
